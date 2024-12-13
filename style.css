@@ -45,6 +45,7 @@ nav ul{
 
 nav ul li{
     margin: 0 1em;
+   
 }
 
 .navBtn{
@@ -52,6 +53,9 @@ nav ul li{
     border: none;
     font-size: 1em;
     cursor: pointer;
+    color: rgb(34, 139, 204)
+    
+
 }
 
 .navBtn:hover{
