@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: gold;
 }
 
 header{
@@ -14,7 +14,7 @@ header{
 .titulo{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 15px;
     margin-bottom: 20px;
 }
@@ -25,9 +25,9 @@ header{
 }
 
 .titulo h1{
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 0;
-    color: black;
+    color: rgb(34, 139, 204);
 }
 
 h4{
@@ -40,7 +40,7 @@ nav ul{
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 nav ul li{
