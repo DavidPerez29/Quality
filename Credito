@@ -1,0 +1,40 @@
+class Credito{
+
+    constructor(monto,tasaAnual,plazoMeses){
+        this.monto = monto;
+        this.tasaAnual = tasaAnual
+    }
+
+}
+
+
+
+
+
+function Credito_libre_inversion(){
+    const tasaMensual = 12 / 100 / 12;
+    const cuotaMensual = (monto * tasaMensual * Math.pow(1 + tasaMensual, plazoMeses)) / (Math.pow(1 + tasaMensual, plazoMeses) - 1); 
+    return cuotaMensual;
+
+}
+
+function Credito_Hipotecario(){
+    const tasaMensual = 10 / 100 / 12;
+    const cuotaMensual = (monto * tasaMensual * Math.pow(1 + tasaMensual, plazoMeses)) / (Math.pow(1 + tasaMensual, plazoMeses) - 1); 
+    return cuotaMensual;
+    
+}
+
+function Credito_Vehicular(){
+    const tasaMensual = 5 / 100 / 12;
+    const cuotaMensual = (monto * tasaMensual * Math.pow(1 + tasaMensual, plazoMeses)) / (Math.pow(1 + tasaMensual, plazoMeses) - 1); 
+    return cuotaMensual;
+    
+}
+
+function Credito_libranza(){
+    const tasaMensual = 9 / 100 / 12;
+    const cuotaMensual = (monto * tasaMensual * Math.pow(1 + tasaMensual, plazoMeses)) / (Math.pow(1 + tasaMensual, plazoMeses) - 1); 
+    return cuotaMensual;
+    
+}

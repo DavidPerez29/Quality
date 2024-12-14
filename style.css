@@ -30,8 +30,8 @@ header{
     color: rgb(34, 139, 204);
 }
 
-h4{
-    font-size: 0.5rem;
+.logo_footer{
+    font-size: 1rem;
     margin: 5;
     color: black;
 }
@@ -80,4 +80,10 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
