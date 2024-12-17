@@ -9,7 +9,8 @@ class Persona{
         this.correo = correo;
         this.telefono = telefono;
         this.empresa = empresa;
-        this.tipo_persona  = tipo_persona;}
+        this.tipo_persona  = tipo_persona;
+    }
 
 }
 
@@ -28,6 +29,6 @@ function eliminarPersona(identificacion) {
     }
 }
 
-const persona1 = crearPersona('Admin', 30, 'Masculino', 'Desarrollador', 'david.perez@gmail.com', '1234567890', 'TechCorp', 'Empleado');
+const persona1 = crearPersona(12345678,'Admin', 30, 'Masculino', 'Desarrollador', 'david.perez@gmail.com', '1234567890', 'TechCorp', 'Empleado');
 console.log(persona1);
 

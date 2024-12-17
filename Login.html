@@ -8,13 +8,15 @@
 </head>
 <body>
 
-    <header>
+    <header class="header">
         <section class="titulo">
             <img src="mano.png" alt="Logo Financiero">
-            <h1>Quality</h1>  
-            <section>
-                <h4>Software a la medida</h4>
-             </section>        
+            <div>
+                <h1>Quality</h1>
+                <section>
+                    <h2 class="logo_footer">Software a la medida</h4>
+                 </section>   
+            </div>     
         </section>
 
         
@@ -22,20 +24,25 @@
         <nav>
             <ul>
             <li><button class="navBtn" data-view="Registro">Registro</button></li>
-            <li><button class="navBtn" data-view="Loguin">Loguin</button></li>
+            <li><button class="navBtn" data-view="Login">Login</button></li>
             <li><button class="navBtn" data-view="Registro">Registro</button></li>
             </ul>
         </nav>
     </header>
 
     <main id="app">
-        
+        <Section class="formularios-login">
+        <h5>Login</h5>    
+        <input class="controls" type="text" name="usuario" value="" placeholder="usuario">
+        <input class="controls" type="password" name="Contraseña" value="" placeholder="Contraseña">
+        <input class="buttons"  type="submit" name="" value="Ingresar">
+        <p><a  href="#"> ¿Olvidaste tu contraseña?</a></p>    
+        </Section> 
     
     </main>
 
     <footer>
         <p>Vank Finanzas 2024</p>
     </footer>
-    <script src="main.js"></script>
 </body>
 </html>
